@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build hello.cpp",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "-g",
+              "hello.cpp",
+              "-o",
+              "hello"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "detail": "Gerar o executável hello a partir do hello.cpp usando g++"
+      }
+  ]
+}
