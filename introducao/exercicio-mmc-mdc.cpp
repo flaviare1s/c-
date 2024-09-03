@@ -36,5 +36,7 @@ int main() {
     cout << "O MDC dos valores digitados é " << mdc << endl;
     cout << "O MMC dos valores digitados é " << mmc << endl;
 
+    delete[] num;
+    
     return 0;
 }
